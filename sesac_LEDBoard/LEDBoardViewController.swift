@@ -55,30 +55,30 @@ class LEDBoardViewController: UIViewController {
         buttonName.setTitleColor(.blue, for: .highlighted)
     }
     
-    func studyOutletCollection() {
-        
-        // 1, 반복문 사용
-        
-        let buttonArrau = [sendButton, textColorButton]
-        
-        for item in buttonArrau {
-            item?.backgroundColor = .blue
-            item?.layer.cornerRadius = 2
-            
-        }
-        
-        
-        //2. 아웃렛 컬렉션
-        for item in buttonList {
-            item.backgroundColor = .blue
-            item.layer.cornerRadius = 2
-            
-        }
-        
-        
-        
-    }
-    
+//    func studyOutletCollection() {
+//
+//        // 1, 반복문 사용
+//
+//        let buttonArrau = [sendButton, textColorButton]
+//
+//        for item in buttonArrau {
+//            item?.backgroundColor = .blue
+//            item?.layer.cornerRadius = 2
+//
+//        }
+//
+//
+//        //2. 아웃렛 컬렉션
+//        for item in buttonList {
+//            item.backgroundColor = .blue
+//            item.layer.cornerRadius = 2
+//
+//        }
+//
+//
+//
+//    }
+//
 
     
     
